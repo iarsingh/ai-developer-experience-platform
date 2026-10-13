@@ -1,5 +1,12 @@
 # AI Developer Experience Platform
 
+## Overview
+
+A golden-path check for a developer experience platform. The `POST /check` endpoint passes a service only when docs, CI and a preview are all in place, and apply is always false. A versioned `/v1` ops API adds workspaces, tenant isolation, job approval and audit records for platform jobs.
+
+- **Built with:** Python, pytest, Docker, GitHub Actions
+- **Scope:** Local laptop proof with tests; it does not call a hosted model and refuses production apply.
+
 <!-- project-guide:start -->
 ## Project guide
 
